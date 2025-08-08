@@ -1,5 +1,5 @@
 import axios from 'axios'
-axios.defaults.baseURL = 'http://localhost:5173/api'
+axios.defaults.baseURL = import.meta.env.VITE_Base_URL
 
 axios.interceptors.request.use((config) => {
     // token 拦截器，携带token
