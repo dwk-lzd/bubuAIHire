@@ -2,7 +2,7 @@ import {
     useState,
     useEffect
 } from 'react'
-import styles from './MainLayout.module.css'
+import styles from './Mainlayout.module.css'
 import {
     Tabbar
 } from 'react-vant'
