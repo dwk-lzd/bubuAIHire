@@ -1,0 +1,210 @@
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.user {
+    display: flex;
+    background: linear-gradient(to bottom, #81ecec49 0%, white 100%);
+    width: 100%;
+    height: 200px;
+    position: relative;
+
+}
+
+.userAvatar {
+    margin: auto 10px;
+}
+
+.userMessage {
+    margin: auto 10px;
+}
+
+.userNickname {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.userIcon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: flex;
+}
+
+.userIconScan {
+    margin-right: 30px;
+}
+
+.userIconSetting {
+    margin-right: 10px;
+}
+
+.vipContainer {
+    height: 190px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.vipTitle {
+    background: rgb(1, 63, 35);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(247, 132, 50);
+    width: 98%;
+    margin: 0 1% 0 1%;
+    border-radius: 10px;
+}
+
+.vipNotice {
+    flex: 1;
+}
+
+.schoolContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    background: white;
+    border-radius: 10px;
+    width: 98%;
+    margin: 15px 1% 0 1%;
+}
+
+.school {
+    display: flex;
+}
+
+.schoolLogo {
+    width: 80px;
+    height: 80px;
+    margin: 0 10px 0 10px;
+    border-radius: 10px;
+    border: 1px solid #07000021;
+}
+
+.schoolEnter {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    color: #0700004d;
+}
+
+.usualFunction {
+    margin: 15px 1% 0 1%;
+    height: 200px;
+    width: 98%;
+    background: white;
+    border-radius: 10px;
+    color: black;
+}
+
+.usualFunctionTitle {
+    font-size: 28px;
+    margin: 20px 0 5px 15px;
+}
+
+.usualFunctionList {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.usualFunctionIcon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.usualFunctionText {
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+}
+
+.usualFunctionItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding: 10px;
+}
+
+.otherFunction {
+    position: relative;
+    background: white;
+    min-height: 400px;
+    width: 98%;
+    margin: 15px 1% 0 1%;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.otherFunctionTitle {
+    margin: 20px 0 5px 15px;
+    font-size: 28px;
+}
+
+.otherFunctionList {
+    margin: 20px 15px 0 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 10px;
+}
+
+.otherFunctionItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 10px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.otherFunctionItem:hover {
+    background-color: #f5f5f5;
+    transform: translateY(-2px);
+}
+
+.otherFunctionIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+    width: 40px;
+    height: 40px;
+}
+
+.otherFunctionText {
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+    line-height: 1.2;
+    max-width: 100%;
+    word-break: break-word;
+}
+
+.logout {
+    margin: 15px 1% 0 1%;
+    width: 98%;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.footer {
+    margin: 20px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 120px;
+}

@@ -1,0 +1,117 @@
+/* 完全按照 ArticleWaterfall 的樣式 */
+
+/* 空狀態容器 */
+.emptyContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.emptyContent {
+    text-align: center;
+    color: #999;
+}
+
+.emptyContent p {
+    margin: 8px 0;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+/* 文章容器 - 完全複製 ArticleWaterfall.module.css */
+.articleContainer {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 120px;
+}
+
+.articleItem {
+    background: white;
+    margin: 15px 15px 0 15px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.articleItemBox {
+    margin: 20px 0 20px 20px;
+}
+
+.articleUser {
+    display: flex;
+    align-items: center;
+}
+
+.articleUser p {
+    margin-left: 10px;
+    font-size: 28px;
+    color: black;
+    font-weight: 500;
+}
+
+.articleUser img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.articleText {
+    margin-top: 15px;
+    font-size: 28px;
+}
+
+.articleImages {
+    display: flex;
+    margin-top: 15px;
+}
+
+.articleImages img {
+    width: 200px;
+    height: 250px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.articleType p {
+    margin-top: 15px;
+    font-size: 28px;
+    color: #1db664;
+    font-weight: 600;
+}
+
+.articleContact {
+    margin: 15px 20px 0 20px;
+    background: #f5f5f5;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.articleContactBox {
+    margin: 10px 20px 10px 20px;
+}
+
+.articleCommentItem {
+    display: flex;
+}
+
+.articleCommentItem p {
+    margin-left: 10px;
+}
+
+.articleFooter {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 30px 10px 30px;
+}
+
+/* 刪除功能相關樣式 */
+.deleteText {
+    margin-left: 5px;
+    color: #ff4757;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.deleteText:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,6 @@
+.img {
+    background-color: #eee;
+    /* 保持元素的宽高比  会去剪裁 */
+    object-fit: cover;
+    display: block;
+}

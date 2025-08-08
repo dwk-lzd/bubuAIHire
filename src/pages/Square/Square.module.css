@@ -1,0 +1,61 @@
+.HeaderSearch {
+    display: flex;
+    justify-content: space-around;
+    background: #81ECEC49;
+}
+
+.HeaderSearchLeft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    background: #dff0f0;
+    border-radius: 50%;
+
+}
+
+.HeaderSearchInput {
+    width: 60%;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-around;
+    background: white;
+    border-radius: 30px;
+}
+
+.HeaderSearchInputNotice {
+    width: 80%;
+    height: 100%;
+    background: white;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.HeaderSearchRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 搜索框文字樣式 */
+.HeaderSearchInputText {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    color: #999;
+    background: transparent;
+}
+
+.badgeContainer {
+    position: relative;
+    padding: 20px;
+}
+
+/* 控制 Tabs 內容高度 .tabs :global(.rv-tabs__content) {
+    min-height: auto !important;
+    height: auto !important;
+} */

@@ -1,0 +1,12 @@
+.searchHeader {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    background: white;
+}
+
+.searchButton span {
+    font-size: 28px;
+    color: black;
+    font-weight: 600;
+}
