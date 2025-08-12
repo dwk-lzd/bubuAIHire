@@ -1,0 +1,74 @@
+.jobsContainer {
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    padding-bottom: 120px;
+}
+
+.jobsItem {
+    margin: 20px 20px 0 20px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.jobsItemBox {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.jobsItemHeader {
+    display: flex;
+    justify-content: space-between;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.jobsItemContent {
+    display: flex;
+    font-size: 28px;
+    color: #999;
+    margin-top: 10px;
+}
+
+.jobsItemContent p {
+    margin-right: 20px;
+}
+
+.jobsItemBenefits {
+    display: flex;
+    margin-top: 10px;
+}
+
+.jobsItemBenefits p {
+    margin-right: 20px;
+    color: #999;
+    background: #E6F8F3;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.jobsItemFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.jobsItemFooterCompany {
+    display: flex;
+    align-items: center;
+}
+
+.jobsItemFooterCompany div {
+    margin-left: 15px;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin-top: 15px;
+}

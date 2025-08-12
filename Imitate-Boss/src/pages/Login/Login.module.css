@@ -1,0 +1,144 @@
+.loginContainer {
+    height: 100%;
+    background: linear-gradient(135deg, rgb(0, 185, 107) 0%, rgb(0, 168, 84) 100%);
+}
+
+.loginHeader {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.loginHeader h1 {
+    font-size: 64.05px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+
+.loginHeader p {
+    font-size: 33px;
+}
+
+.loginBody {
+    height: 1100px;
+    background: white;
+    width: 84%;
+    margin-left: 8%;
+    margin-right: 8%;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.loginForm {
+    font-display: flex;
+    flex-direction: column;
+    margin: 0 40px;
+}
+
+.loginUsername {
+    position: relative;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin: 100px 50px 0 50px;
+}
+
+.loginUsernameIcon {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+.loginUsernameIcon p {
+    margin-left: 10px;
+}
+
+.loginUsername input {
+    border: none;
+    outline: none;
+    font-size: 30px;
+    width: 40%;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
+
+
+
+.loginPassword {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin: 0 50px 0 50px;
+}
+
+.loginPasswordIcon {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+.loginPasswordIcon p {
+    margin-left: 10px;
+}
+
+.loginPassword input {
+    border: none;
+    outline: none;
+    font-size: 30px;
+    width: 40%;
+    margin-left: 80px;
+    margin-right: 10px;
+}
+
+.loginButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 84%;
+    margin: 50px 8% 0 8%;
+}
+
+
+.loginQuickLogin {
+    width: 75%;
+    margin: 20px 12.5% 20px 12.5%;
+    background: #F5F5F5;
+    border-radius: 10px;
+    background: white;
+}
+
+.loginTestAccount {
+    width: 75%;
+    margin: 80px 12.5% 20px 12.5%;
+    background: #F5F5F5;
+    border-radius: 15px;
+    height: 200px;
+    overflow: hidden;
+    border-left: 10px solid #00B96B;
+}
+
+.loginTestAccount h3 {
+    margin: 40px 0 20px 15px;
+}
+
+.loginTestAccount p {
+    margin: 0 0 0 20px;
+}
+
+.loginFooter {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginFooter p {
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    font-size: 24px;
+
+}

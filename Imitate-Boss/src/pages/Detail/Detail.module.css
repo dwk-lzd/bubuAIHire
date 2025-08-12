@@ -1,0 +1,166 @@
+.detailContainer {
+    position: relative;
+    padding: 0 0 85px 0;
+}
+
+.detailHeader {
+    overflow: hidden;
+}
+
+.detailHeaderContainer {
+    margin: 40px 20px 0 20px;
+}
+
+.detailHeaderTop {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px 0 10px;
+
+}
+
+.detailHeaderTopIcon {
+    margin: 0 10px;
+}
+
+.detailHeaderBodyMsg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 32px;
+    margin: 10px 10px 0 10px;
+}
+
+.detailHeaderBodyMsg h2 {
+    font-size: 38px;
+}
+
+.detailHeaderBodyMsg p {
+    color: #58B282;
+}
+
+.detailHeaderBodyLocation {
+    display: flex;
+    align-items: center;
+    margin: 10px 10px 0 10px;
+}
+
+.detailHeaderBodyLocation p {
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+.detailHeaderBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 10px 0 10px;
+
+}
+
+.detailHeaderBottomLeft {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 28px;
+    background: #F6FAF8;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.detailHeaderBottom p {
+    font-size: 24px;
+    color: #999;
+}
+
+.myDivider {
+    border-color: #999;
+}
+
+.detailBody {
+    margin: 10px 20px 30px 20px;
+}
+
+.detailBodyMajor {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.detailBodyMajor p {
+    margin-right: 10px;
+    background: #F6FAF8;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.detailBodyRequirements {
+    margin: 15px 0 25px 0;
+}
+
+.detailBodyWork {
+    margin-top: 15px;
+}
+
+.detailBodyFooterAI img {
+    width: 100%;
+    height: 100%;
+    margin: 40px auto 0 auto;
+    border-radius: 20px;
+}
+
+.detailBodyFooterBottomMsg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.detailBodyFooterBottomMsgLeft {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.detailBodyFooterBottomMsgLeft img {
+    margin-right: 20px;
+}
+
+.detailFooterWarnTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.detailFooterWarnTopLeft {
+    display: flex;
+    align-items: center;
+}
+
+.detailFooterWarnTopRight {
+    display: flex;
+    align-items: center;
+}
+
+.detailBotton {
+    height: 140px;
+    width: 100%;
+    background: white;
+    position: fixed;
+    bottom: -31px;
+}
+
+.detailBotton button {
+    width: 70%;
+    height: 50%;
+    background: #58B282;
+    margin: 10px 15%;
+    border-radius: 40px;
+    color: white;
+    font-weight: 600;
+    font-size: 28px;
+
+}
+
+.detailBottonDivider {
+    margin: 0;
+    border-color: #999
+}

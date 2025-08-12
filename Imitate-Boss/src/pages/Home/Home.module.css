@@ -1,0 +1,62 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding-bottom: 50px;
+}
+
+.HeaderSearch {
+    display: flex;
+    justify-content: space-around;
+    background: #81ECEC49;
+}
+
+.HeaderSearchLeft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    background: #dff0f0;
+    border-radius: 50%;
+
+}
+
+.HeaderSearchInput {
+    width: 60%;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-around;
+    background: white;
+    border-radius: 30px;
+}
+
+.HeaderSearchInput input {
+    /* width: 100%;
+    height: 100%; */
+    border: none;
+    outline: none;
+}
+
+.HeaderSearchRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    background: linear-gradient(to right, #c8f3e6, #e8fff9);
+    border-radius: 30px;
+    color: #07000070;
+}
+
+.HeaderSwiper {
+    background: linear-gradient(45deg, #81ECEC49 0%, white 100%);
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HeaderSwiperItem {
+    width: 90%;
+    border-radius: 20px;
+}
